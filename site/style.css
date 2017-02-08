@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Goldoni";
+	src: url("../fonts/Goldoni/Goldoni_DEMO.otf");
+}
+
+body {
+	text-align: center;
+	font-family: 'Goldoni';
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+	float: left;
+	display: block;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#inner {
+    width: 50%;
+    margin: 0 auto; 
+}
