@@ -1,11 +1,25 @@
+/* Fonts */
 @font-face {
 	font-family: "Goldoni";
 	src: url("../fonts/Goldoni/Goldoni_DEMO.otf");
 }
 
+/* Colours */
+:root{
+	--dark-blue: #027CBD;
+	--light-blue: #ACDFF2;
+}
+
+
+/* Header */
+header {
+	background-color: var(--dark-blue);
+}
+
+
 body {
-	text-align: center;
 	font-family: 'Goldoni';
+	background-color: var(--light-blue);
 }
 
 ul {
@@ -21,12 +35,7 @@ li {
 	display: block;
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px;
     text-decoration: none;
-}
-
-#inner {
-    width: 50%;
-    margin: 0 auto; 
 }
